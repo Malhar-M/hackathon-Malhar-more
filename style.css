@@ -1,0 +1,23 @@
+:root {
+  /* Fonts */
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-sans: 'Inter', sans-serif;
+
+  /* Colors */
+  --bg-dark: #172B36;
+  --surface: #114C5A;
+  --text-main: #F1F6F4;
+  --text-muted: #D9E8E2;
+  --accent-gold: #FFC801;
+  --accent-saffron: #FF9932;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, code {
+  font-family: var(--font-mono);
+}
